@@ -1,0 +1,82 @@
+[
+    {
+        "courseID": "1",
+        "courseTitle": "Complete Python course 2021",
+        "courseInstructor": "Guido Van Rossum",
+        "image": "https://image.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg",
+        "rating": 4.5,
+        "price": 13.59,
+        "enrolled": 2365,
+        "courseDesc": "Learn all the basics you need for a career in the fastest growing programming language in the world. Use python in your development or machine learning projects."
+    },
+    {
+        "courseID": "2",
+        "courseTitle": "Learn JavaScript ES6",
+        "courseInstructor": "Caroline Baker",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg?size=626&ext=jpg",
+        "rating": 3.9,
+        "price": 9.99,
+        "enrolled": 1243,
+        "courseDesc": "Become an advanced, confident, and modern JavaScript developer from scratch."
+    },
+    {
+        "courseID": "3",
+        "courseTitle": "Data Structures and Algorithms in C++",
+        "courseInstructor": "Mario Nguyen",
+        "image": "https://image.freepik.com/free-vector/digital-binary-code-algorithm-stream-matrix-background_1017-25328.jpg",
+        "rating": 3.5,
+        "price": 11.99,
+        "enrolled": 129,
+        "courseDesc": "Ace coding interviews given by some of the top tech companies. Become more confident and prepared for your next coding interview"
+    },
+    {
+        "courseID": "4",
+        "courseTitle": "Complete Graphics Design Masterclass",
+        "courseInstructor": "Michael Peele",
+        "image": "https://image.freepik.com/free-vector/graphic-design-colorful-geometrical-lettering_52683-34588.jpg",
+        "rating": 5.0,
+        "price": 15.99,
+        "enrolled": 3104,
+        "courseDesc": "You will learn the fundamental principles of graphic design that will allow you to create compelling social media images."
+    },
+    {
+        "courseID": "5",
+        "courseTitle": "Pixel art for video games",
+        "courseInstructor": "Marco Vale",
+        "image": "https://image.freepik.com/free-vector/vector-set-men-professions_53876-17787.jpg",
+        "rating": 3.3,
+        "price": 8.99,
+        "enrolled": 216,
+        "courseDesc": "The essential course for creating stunning pixel art graphics for video-games or stylish illustrations and designsYou will learn the fundamental principles of graphic design that will allow you to create compelling social media images."
+    },
+    {
+        "courseID": "6",
+        "courseTitle": "Full Stack Django Development",
+        "courseInstructor": "Adam Shaw",
+        "image": "https://img.freepik.com/free-vector/programmer-work-with-working-day-symbols-flat-illustration_1284-60322.jpg?size=338&ext=jpg",
+        "rating": 4.3,
+        "price": 11.99,
+        "enrolled": 598,
+        "courseDesc": "Learn to build websites with HTML , CSS , Bootstrap , Javascript , jQuery , Python 3 , and Django!"
+    },
+    {
+        "courseID": "7",
+        "courseTitle": "Build Unity games with C#",
+        "courseInstructor": "Leroy Carlson",
+        "image": "https://image.freepik.com/free-photo/close-up-image-programer-working-his-desk-office_1098-18707.jpg",
+        "rating": 3.8,
+        "price": 11.99,
+        "enrolled": 1021,
+        "courseDesc": "Design & Develop Video Games. Learn C# in Unity Engine. Code Your first 3D Unity games for web, Mac & PC."
+    },
+    {
+        "courseID": "8",
+        "courseTitle": "UI UX Design Essentials",
+        "courseInstructor": "Olga Curtis",
+        "image": "https://image.freepik.com/free-vector/gradient-ui-ux-background_23-2149052117.jpg",
+        "rating": 4.5,
+        "price": 15.99,
+        "enrolled": 4312,
+        "courseDesc": "You'll learn how to use Adobe XD to design and prototype a mobile app. The skills acquired can also be used to design websites."
+    }
+]

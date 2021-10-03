@@ -4,7 +4,10 @@ import About from './Components/About/About';
 import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
+import NotFound from './Components/NotFound/NotFound';
+import Review from './Components/Review/Review';
 import Services from './Components/Services/Services';
+
 
 
 function App() {
@@ -24,6 +27,12 @@ function App() {
           </Route>
           <Route path='/services'>
             <Services></Services>
+          </Route>
+          <Route path='/review'>
+            <Review></Review>
+          </Route>
+          <Route path='*'>
+            <NotFound></NotFound>
           </Route>
         </Switch>
 
