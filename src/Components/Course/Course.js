@@ -8,7 +8,7 @@ const Course = (props) => {
     return (
         <div className="container">
             <div className="d-flex flex-column flex-lg-row my-4 rounded overflow-hidden custom-bg">
-                <div className="pt-2 pt-lg-0"><img className="rounded" height="300" width="450" src={image} alt="" /></div>
+                <div className="pt-2 pt-lg-0"><img height="300" width="450" src={image} alt="" /></div>
                 <div className="px-3 px-md-5 py-3 text-start">
                     <div className="d-flex justify-content-between align-items-center">
                         <h3 className="pb-2">{courseTitle}</h3>

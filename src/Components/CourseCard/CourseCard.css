@@ -1,3 +1,6 @@
+.custom-bg:hover{
+    background-color: rgb(255, 231, 231);
+}
 .course-card{
     display: flex;
     flex-direction: column;

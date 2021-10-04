@@ -11,10 +11,12 @@ const NotFound = () => {
     }
 
     return (
-        <div className="d-flex flex-column align-items-center pt-3">
-            <img src={image} alt="" />
-            <p className="py-2 fs-5">The page you requested doesn't exist.</p>
-            <div className="py-2"><button className="btn-generic btn-red" onClick={() => goToHome()} >Go Back To home</button></div>
+        <div className="container">
+            <div className="d-flex flex-column align-items-center pt-3">
+                <img src={image} alt="" className="img-fluid" />
+                <p className="py-2 fs-5">The page you requested doesn't exist.</p>
+                <div className="py-2"><button className="btn-generic btn-red" onClick={() => goToHome()} >Go Back To home</button></div>
+            </div>
         </div>
     );
 };

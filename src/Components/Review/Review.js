@@ -36,7 +36,8 @@ const Review = () => {
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    dots: true
+                    dots: true,
+                    arrows: false
                 }
             }
         ]

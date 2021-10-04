@@ -15,7 +15,7 @@ const Footer = () => {
                     <div className="d-flex flex-column">
                         <span className="footer-link">FAQ</span>
                         <span className="footer-link">Terms</span>
-                        <span className="footer-link">Privacy Policy</span>
+                        <span className="footer-link">Privacy</span>
                         <span className="footer-link">Help</span>
                     </div>
                     <div className="d-flex flex-column justify-content-between">

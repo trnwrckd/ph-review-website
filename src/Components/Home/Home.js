@@ -3,12 +3,13 @@ import useCourses from '../../hooks/useCourses';
 import CourseCard from '../CourseCard/CourseCard';
 import './Home.css';
 import '../../common.css';
+
 const Home = () => {
     const [courses] = useCourses();
     const reducedCourses = courses.slice(0, 4);
 
     return (
-        <div className="container pb-5 mb-5 mt-2">
+        <div className="container pb-5 mb-5 mt-4 ">
             <div className="bg-instructor p-3">
                 <h2 >Become an Instructor Today!</h2>
                 <p className="pt-3 fs-5 w-50 mx-auto">Are you skilled and knowledgeable? We are providing you with an opportunity to spread the knowledge you have.</p>

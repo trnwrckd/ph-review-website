@@ -7,7 +7,7 @@
         "rating": 4.5,
         "price": 13.59,
         "enrolled": 2365,
-        "courseDesc": "Learn all the basics you need for a career in the fastest growing programming language in the world. Use python in your development or machine learning projects."
+        "courseDesc": "Learn and use python in your development or machine learning projects."
     },
     {
         "courseID": "2",
@@ -27,7 +27,7 @@
         "rating": 3.5,
         "price": 11.99,
         "enrolled": 129,
-        "courseDesc": "Ace coding interviews given by some of the top tech companies. Become more confident and prepared for your next coding interview."
+        "courseDesc": "Ace coding interviews given by some of the top tech companies. Become more confident."
     },
     {
         "courseID": "4",
@@ -37,7 +37,7 @@
         "rating": 5.0,
         "price": 15.99,
         "enrolled": 3104,
-        "courseDesc": "You will learn the fundamental principles of graphic design that will allow you to create compelling social media images."
+        "courseDesc": "Learn the fundamental principles of graphic design, create social media images."
     },
     {
         "courseID": "5",
@@ -47,7 +47,7 @@
         "rating": 3.3,
         "price": 8.99,
         "enrolled": 216,
-        "courseDesc": "The essential course for creating stunning pixel art graphics for video-games or stylish illustrations and designs."
+        "courseDesc": "The essentials for creating pixel art graphics for video-games or illustrations and designs."
     },
     {
         "courseID": "6",
@@ -67,7 +67,7 @@
         "rating": 3.8,
         "price": 11.99,
         "enrolled": 1021,
-        "courseDesc": "Design & Develop Video Games. Learn C# in Unity Engine. Code Your first 3D Unity games for web, Mac & PC."
+        "courseDesc": "Learn C#, Design & Develop your first 3D Unity games for web, Mac & PC."
     },
     {
         "courseID": "8",
@@ -77,6 +77,6 @@
         "rating": 4.5,
         "price": 15.99,
         "enrolled": 4312,
-        "courseDesc": "You'll learn how to use Adobe XD to design and prototype a mobile app. The skills acquired can also be used to design websites."
+        "courseDesc": "Use Adobe XD to design and prototype a mobile or web application."
     }
 ]

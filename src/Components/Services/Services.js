@@ -8,6 +8,7 @@ const Services = () => {
     return (
         <div>
             <div>
+                <h2 className="mt-4">All Courses</h2>
                 {
                     courses.map(course => <Course key={course.courseID} course={course}></Course>)
                 }

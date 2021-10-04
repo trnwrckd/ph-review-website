@@ -3,20 +3,51 @@
     border: none;
     border-radius: 5px;
     box-shadow: 0px 0px 5px rgb(109, 109, 109);
+    transition: all .5s;
+    z-index :1;
+}
+.btn-generic:hover{
+    box-shadow: 0px 0px 8px rgb(41, 41, 41);
+    background-color: rgb(255, 193, 77);
 }
 .btn-red{
     color: white;
     letter-spacing: 1px;
     background-color: tomato;
+    position: relative;
+    overflow: hidden;
+}
+.btn-red:hover{
+    background-color: rgb(25, 47, 116);
+    /* color: black; */
+}
+.btn-blue:hover{
+    background-color: rgb(50, 82, 32);
+    /* color: black; */
 }
 .btn-blue{
     background-color:royalblue;
     color: white;
     letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
 }
-.btn-generic:hover{
-    
+.btn-red:before , .btn-blue:before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 20%;
+    height: 100%;
+    top:0;
+    left:-20%;
+    border-radius: 5px;
+    background-color: rgb(172, 172, 172);
+    transition: all .5s;
 }
+.btn-red:hover:before , .btn-blue:hover:before{
+    left: 100%;
+}
+
 .icon-color{
     color: orange;
 }
