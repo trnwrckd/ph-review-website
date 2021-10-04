@@ -1,4 +1,5 @@
-# EduPassion - An education platform where you can learn on your own schedule
+# EduPassion 
+### An education platform where you can learn on your own schedule
 
 ## Visit - https://flamboyant-shirley-5f5033.netlify.app/
 
