@@ -1,0 +1,45 @@
+.navbar{
+    background-color: rgb(49, 49, 49);
+    color: gray;
+    margin-bottom: 5px;
+    height: 70px;
+}
+.bg-gray{
+    background-color: rgb(49, 49, 49);
+}
+.nav-link{
+    color: gray;
+    text-decoration: none;
+    font-size: 1.3rem;
+    letter-spacing: 1.5px;
+    margin-left:8px;
+    margin-right:8px;
+    transition: all .5s;
+}
+a:focus{
+    color: yellow;
+}
+.nav-link:hover{
+    color: white;
+    background-color: rgba(133, 133, 133, 0.185);
+    border-radius: 10px;
+    
+}
+.active-nav-link{
+    color: tomato !important;
+    font-size: 1.5rem;
+}
+
+.login-btn{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: tomato;
+    border-radius: 50%;
+    padding: 5px 10px;
+    transition: all .5s;
+}
+
+.login-btn:hover{
+    background-color: tomato;
+    color: white;
+}

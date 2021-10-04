@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Isabel Holloway",
+        "headshot": "https://wrisenergy.org/wp-content/uploads/2019/06/Professional-headshot-square.jpg",
+        "profession": "Web Developer",
+        "country": "USA",
+        "review": "EduPassion made me the person I am today, landed me a job that I never even dreamt of."
+    },
+    {
+        "id": 2,
+        "name": "Felix Stevenson",
+        "headshot": "https://aurizonultrasonics.com/wp-content/uploads/2017/10/Headshot-MarkSjoberg-square-1024x1024.jpg",
+        "profession": "Digital Marketer",
+        "country": "Chile",
+        "review": "The most crucial job skills are represented in an easy and understandable manner, can't but love EduPassion."
+    },
+    {
+        "id": 3,
+        "name": "Clayton Alexander",
+        "headshot": "https://singularityhub.com/wp-content/uploads/2016/12/135A8440-square.jpg",
+        "profession": "Student",
+        "country": "Canada",
+        "review": "Learning a lot. Flexible schedules which are easily managable while continuing my academic studies."
+    },
+    {
+        "id": 4,
+        "name": "Rebecca Swanson",
+        "headshot": "http://dycdallas.com/wp-content/uploads/2018/05/McKenna-Yowell-Headshot-Square-1024x1024.jpg",
+        "profession": "Student",
+        "country": "Norway",
+        "review": "I will never understand why EduPassion is so underrated."
+    },
+    {
+        "id": 5,
+        "name": "Candice Munoz",
+        "headshot": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Annika_Zeyen_Square_headshot_Wikipedia.jpg/480px-Annika_Zeyen_Square_headshot_Wikipedia.jpg",
+        "profession": "UI/UX Intern",
+        "country": "France",
+        "review": "Signing up on EduPassion is the one decision I'll probably never regret."
+    }
+]

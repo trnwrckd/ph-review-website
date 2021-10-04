@@ -1,0 +1,36 @@
+.user-img{
+    height: 150px;
+    width: 150px;
+    display: block;
+    border-radius: 50%;
+    
+}
+.bg-review{
+    background-color: #b2db9b;
+}
+
+.slick-prev, .slick-next{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+}
+.slick-prev::before, .slick-next::before{
+    color: black;
+}
+.slick-prev:hover , .slick-next:hover{
+    background-color: rgb(131, 131, 131);
+}
+.slick-prev:hover:before, .slick-next:hover:before{
+    color: white;
+}
+
+.bg-profession{
+    font-weight: 500;
+    background-color: #AB9A9A;
+}
+.bg-country{
+    font-weight: 500;
+    background-color: #89AB92;
+
+}

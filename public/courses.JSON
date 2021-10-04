@@ -27,7 +27,7 @@
         "rating": 3.5,
         "price": 11.99,
         "enrolled": 129,
-        "courseDesc": "Ace coding interviews given by some of the top tech companies. Become more confident and prepared for your next coding interview"
+        "courseDesc": "Ace coding interviews given by some of the top tech companies. Become more confident and prepared for your next coding interview."
     },
     {
         "courseID": "4",
@@ -47,7 +47,7 @@
         "rating": 3.3,
         "price": 8.99,
         "enrolled": 216,
-        "courseDesc": "The essential course for creating stunning pixel art graphics for video-games or stylish illustrations and designsYou will learn the fundamental principles of graphic design that will allow you to create compelling social media images."
+        "courseDesc": "The essential course for creating stunning pixel art graphics for video-games or stylish illustrations and designs."
     },
     {
         "courseID": "6",

@@ -14,29 +14,31 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Header></Header>
-        <Switch>
-          <Route exact path='/'>
-            <Home></Home>
-          </Route>
-          <Route path='/home'>
-            <Home></Home>
-          </Route>
-          <Route path='/about'>
-            <About></About>
-          </Route>
-          <Route path='/services'>
-            <Services></Services>
-          </Route>
-          <Route path='/review'>
-            <Review></Review>
-          </Route>
-          <Route path='*'>
-            <NotFound></NotFound>
-          </Route>
-        </Switch>
+        <div><Header></Header></div>
+        <div className="main">
+          <Switch>
+            <Route exact path='/'>
+              <Home></Home>
+            </Route>
+            <Route path='/home'>
+              <Home></Home>
+            </Route>
+            <Route path='/about'>
+              <About></About>
+            </Route>
+            <Route path='/services'>
+              <Services></Services>
+            </Route>
+            <Route path='/review'>
+              <Review></Review>
+            </Route>
+            <Route path='*'>
+              <NotFound></NotFound>
+            </Route>
+          </Switch>
 
-        <Footer></Footer>
+        </div>
+        <div><Footer></Footer></div>
       </BrowserRouter>
     </div>
   );
