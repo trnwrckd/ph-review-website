@@ -1,3 +1,8 @@
+.bg-review{
+    background-color: #b2db9b;
+}
+
+/* single user design */
 .user-img{
     height: 150px;
     width: 150px;
@@ -5,10 +10,16 @@
     border-radius: 50%;
     
 }
-.bg-review{
-    background-color: #b2db9b;
+.bg-profession{
+    font-weight: 500;
+    background-color: #AB9A9A;
+}
+.bg-country{
+    font-weight: 500;
+    background-color: #89AB92;
 }
 
+/* overriding slick theme css */
 .slick-prev, .slick-next{
     border-radius: 50%;
     width: 30px;
@@ -23,14 +34,4 @@
 }
 .slick-prev:hover:before, .slick-next:hover:before{
     color: white;
-}
-
-.bg-profession{
-    font-weight: 500;
-    background-color: #AB9A9A;
-}
-.bg-country{
-    font-weight: 500;
-    background-color: #89AB92;
-
 }

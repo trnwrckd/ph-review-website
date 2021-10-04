@@ -1,6 +1,5 @@
 import useCourses from '../../hooks/useCourses';
 import Course from '../Course/Course';
-import './Services.css';
 
 const Services = () => {
     const [courses] = useCourses();

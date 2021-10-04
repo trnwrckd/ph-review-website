@@ -1,14 +1,19 @@
 import React from 'react';
 import Rating from 'react-rating';
+
 import './CourseCard.css';
 import '../../common.css';
 
 const CourseCard = (props) => {
     const { courseTitle, image, rating, courseInstructor, price } = props.course;
+
     return (
         <div className="col">
             <div className="d-flex flex-column justify-content-between pb-3 custom-bg  h-100 rounded">
-                <div > <img className="course-card-image text-align rounded my-2 img-fluid" src={image} alt="" /></div>
+                <div>
+                    <img className="course-card-image text-align rounded my-2 img-fluid" src={image} alt="" />
+                </div>
+
                 <span className="fs-4 pt-2">{courseTitle}</span>
 
                 <div>

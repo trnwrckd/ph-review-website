@@ -1,6 +1,7 @@
 import React from 'react';
 import useCourses from '../../hooks/useCourses';
 import CourseCard from '../CourseCard/CourseCard';
+
 import './Home.css';
 import '../../common.css';
 
@@ -16,11 +17,12 @@ const Home = () => {
                 <p className="py-2 fs-6"> Become a part of our teaching faculty and earn from home!</p>
                 <button className="btn-generic"> Sign Up as an Instructor</button>
             </div>
+
             <div className="my-3">
                 <h3 className="pb-3">Most Popular Courses</h3>
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
                     {
-                        reducedCourses.map(course => <CourseCard course={course}></CourseCard>)
+                        reducedCourses.map(course => <CourseCard key={course.courseID} course={course}></CourseCard>)
                     }
                 </div>
             </div>

@@ -1,5 +1,4 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import './App.css';
 import About from './Components/About/About';
 import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
@@ -8,13 +7,15 @@ import NotFound from './Components/NotFound/NotFound';
 import Review from './Components/Review/Review';
 import Services from './Components/Services/Services';
 
-
-
+import './App.css';
 function App() {
   return (
     <div className="App">
+      {/* setting up routes */}
       <BrowserRouter>
+        {/* header */}
         <div><Header></Header></div>
+
         <div className="main">
           <Switch>
             <Route exact path='/'>
@@ -36,8 +37,9 @@ function App() {
               <NotFound></NotFound>
             </Route>
           </Switch>
-
         </div>
+
+        {/* footer */}
         <div><Footer></Footer></div>
       </BrowserRouter>
     </div>

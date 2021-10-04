@@ -1,3 +1,4 @@
+/* generic button */
 .btn-generic{
     padding: 5px 15px;
     border: none;
@@ -5,11 +6,26 @@
     box-shadow: 0px 0px 5px rgb(109, 109, 109);
     transition: all .5s;
     z-index :1;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
 }
-.btn-generic:hover{
-    box-shadow: 0px 0px 8px rgb(41, 41, 41);
+.btn-generic:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -100%;
+    left: 0%;
+    border-radius: 5px;
     background-color: rgb(255, 193, 77);
+    transition: top .3s;
+    z-index: -1;
 }
+.btn-generic:hover:before{
+    top: 0;
+}
+/* generic btn red variant */
 .btn-red{
     color: white;
     letter-spacing: 1px;
@@ -19,12 +35,8 @@
 }
 .btn-red:hover{
     background-color: rgb(25, 47, 116);
-    /* color: black; */
 }
-.btn-blue:hover{
-    background-color: rgb(50, 82, 32);
-    /* color: black; */
-}
+/* generic btn blue variant */
 .btn-blue{
     background-color:royalblue;
     color: white;
@@ -32,22 +44,34 @@
     position: relative;
     overflow: hidden;
 }
+.btn-blue:hover{
+    background-color: #7FB38D;
+}
+/* hover effect for variants */
 .btn-red:before , .btn-blue:before{
     content: '';
     position: absolute;
     z-index: -1;
-    width: 20%;
+    width: 25%;
     height: 100%;
     top:0;
-    left:-20%;
+    left:-25%;
     border-radius: 5px;
-    background-color: rgb(172, 172, 172);
+    background-color: rgba(233, 233, 233, 0.336);
     transition: all .5s;
 }
 .btn-red:hover:before , .btn-blue:hover:before{
     left: 100%;
 }
 
+/* star color in rating */
 .icon-color{
     color: orange;
+}
+/* card bg */
+.custom-bg{
+    background-color: rgb(211, 224, 250);
+}
+.custom-bg:hover{
+    background-color: rgb(255, 231, 231);
 }

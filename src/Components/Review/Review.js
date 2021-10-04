@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from 'react';
+// react-slick package
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
 import './Review.css';
 
 const Review = () => {
+    // setting up slick carousel
     const slickSettings = {
         dots: true,
         infinite: true,
@@ -46,7 +49,8 @@ const Review = () => {
     const [reviews, setReviews] = useState([]);
     useEffect(() => {
         fetch('./review.JSON').then(res => res.json()).then(data => setReviews(data));
-    }, [])
+    }, []);
+
     return (
         <div className="container py-5 my-5">
             <div className='bg-review p-3 rounded'>
@@ -55,6 +59,8 @@ const Review = () => {
                 <p className="fs-5">Our users matter to us. <br />    We are doing our best to give you an unmatched learning experience,<br /> And it feels amazing when our users talk about how they're benefitted.
                 </p>
             </div>
+
+            {/* slider carousel */}
             <Slider {...slickSettings}>
                 {
                     reviews.map(review =>

@@ -10,6 +10,7 @@ nav{
 .bg-gray{
     background-color: rgb(49, 49, 49);
 }
+/* all nav links */
 .nav-link{
     color: gray;
     text-decoration: none;
@@ -19,30 +20,28 @@ nav{
     margin-right:8px;
     transition: all .5s;
 }
-a:focus{
-    color: yellow;
-}
 .nav-link:hover{
     color: white;
     background-color: rgba(133, 133, 133, 0.185);
-    border-radius: 10px;
-    
+    border-radius: 10px;   
 }
+/* active nav link */
 .active-nav-link{
     color: tomato !important;
     font-size: 1.5rem;
 }
-
+/* login button */
 .login-btn{
     border: none;
-    background-color: rgb(255, 255, 255);
-    color: tomato;
+    background-color: rgb(58, 58, 58);
+    box-shadow: 0px 0px 5px rgb(180, 180, 180);
+    color: #f0c741;
+    color: #77E6A1;
     border-radius: 50%;
-    padding: 5px 10px;
+    padding: 3px 8px;
     transition: all .5s;
 }
-
 .login-btn:hover{
-    background-color: tomato;
+    box-shadow: 0px 0px 8px rgb(180, 180, 180);
     color: white;
 }
